@@ -14,7 +14,7 @@ const https = require('https');
 const fs = require('fs');
 
 const corsOptions = {
-  origin: 'http://167.71.161.26:3000', // Allow requests from this origin
+  origin: 'http://44.192.132.66:3000', // Allow requests from this origin
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Allow sending cookies and other credentials
   optionsSuccessStatus: 204, // Some legacy browsers (IE11, various SmartTVs) choke on 204
